@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const dir = 'c:/Users/shiva/Downloads/web dev';
-const files = ['index3.html', 'men.html', 'women.html', 'kids.html', 'elder.html', 'accessories.html'];
+const files = ['index.html', 'men.html', 'women.html', 'kids.html', 'elder.html', 'accessories.html'];
 
 files.forEach(file => {
     const filePath = path.join(dir, file);
