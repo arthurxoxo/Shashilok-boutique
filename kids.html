@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kids Collection | SASHILOK</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style3.css">
+    <style>
+        .collection-hero {
+            height: 60vh;
+            background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('luxury_kids.png');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: var(--white);
+            text-align: center;
+        }
+
+        .back-btn {
+            position: absolute;
+            top: 40px;
+            left: 60px;
+            color: var(--white);
+            text-decoration: none;
+            font-size: 14px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            z-index: 1001;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            transition: var(--transition-smooth);
+        }
+
+        .back-btn:hover {
+            color: var(--gold);
+        }
+
+        .scrolled .back-btn {
+            color: var(--black);
+        }
+    </style>
+</head>
+
+<body>
+
+    <a href="index3.html" class="back-btn">
+        <i class="fa-solid fa-arrow-left"></i> Back to Boutique
+    </a>
+
+    <header class="navbar">
+        <a href="index3.html" class="logo">SASHILOK</a>
+        <nav>
+            <a href="men.html">Men</a>
+            <a href="women.html">Women</a>
+            <a href="kids.html">Kids</a>
+            <a href="accessories.html">Accessories</a>
+        </nav>
+        <div class="nav-right">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-regular fa-heart"></i>
+            <div class="cart-icon">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <span class="badge">0</span>
+            </div>
+        </div>
+    </header>
+
+    <section class="collection-hero">
+        <div class="reveal">
+            <p>Modern Playfulness</p>
+            <h1>KIDS COLLECTION</h1>
+        </div>
+    </section>
+
+    <main>
+        <div class="section-title reveal">
+            <p>Curated Selection</p>
+            <h2>The Little Ones</h2>
+        </div>
+
+        <section class="products-grid">
+            <!-- Kids Casual -->
+            <div class="product-card reveal">
+                <div class="product-image-container">
+                    <img src="https://images.unsplash.com/photo-1519751138087-5bf79df62d5b?auto=format&fit=crop&q=80&w=800"
+                        alt="Kids Casual">
+                    <div class="quick-view">Explore Casuals</div>
+                </div>
+                <div class="product-info">
+                    <h3>Premium Neutral Casuals</h3>
+                    <span class="price">From ₹1,000</span>
+                    <button class="minimal-add-button">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Kids ethnic -->
+            <div class="product-card reveal">
+                <div class="product-image-container">
+                    <img src="https://images.unsplash.com/photo-1519234221713-71861066928e?auto=format&fit=crop&q=80&w=800"
+                        alt="Kids Ethnic">
+                    <div class="quick-view">Explore Ethnic</div>
+                </div>
+                <div class="product-info">
+                    <h3>Miniature Traditional Wear</h3>
+                    <span class="price">From ₹1,990</span>
+                    <button class="minimal-add-button">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Kids Shoes -->
+            <div class="product-card reveal">
+                <div class="product-image-container">
+                    <img src="https://images.unsplash.com/photo-1614705827065-65c3da42898b?auto=format&fit=crop&q=80&w=800"
+                        alt="Kids Shoes">
+                    <div class="quick-view">Explore Footwear</div>
+                </div>
+                <div class="product-info">
+                    <h3>Miniature Oxford Shoes</h3>
+                    <span class="price">From ₹1,490</span>
+                    <button class="minimal-add-button">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Kids Festive Wear -->
+            <div class="product-card reveal">
+                <div class="product-image-container">
+                    <img src="https://images.unsplash.com/photo-1511210950343-43598716b252?auto=format&fit=crop&q=80&w=800"
+                        alt="Kids Festive Wear">
+                    <div class="quick-view">Explore Festive</div>
+                </div>
+                <div class="product-info">
+                    <h3>Festive Silk Wear</h3>
+                    <span class="price">From ₹2,490</span>
+                    <button class="minimal-add-button">Add to Cart</button>
+                </div>
+            </div>
+            <!-- Playful Graphic Tees -->
+            <div class="product-card reveal">
+                <div class="product-image-container">
+                    <img src="https://images.unsplash.com/photo-1519238396346-6aa649ee6ae6?auto=format&fit=crop&q=80&w=800"
+                        alt="Kids Tee">
+                    <div class="quick-view">Explore Tees</div>
+                </div>
+                <div class="product-info">
+                    <h3>Organic Cotton Tee</h3>
+                    <span class="price">From ₹750</span>
+                    <button class="minimal-add-button">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Jackets -->
+            <div class="product-card reveal">
+                <div class="product-image-container">
+                    <img src="https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?auto=format&fit=crop&q=80&w=800"
+                        alt="Kids Jacket">
+                    <div class="quick-view">Explore Jackets</div>
+                </div>
+                <div class="product-info">
+                    <h3>Miniature Denim Jacket</h3>
+                    <span class="price">From ₹1,830</span>
+                    <button class="minimal-add-button">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Sweater -->
+            <div class="product-card reveal">
+                <div class="product-image-container">
+                    <img src="https://images.unsplash.com/photo-1574981358045-8c01d4a8da42?auto=format&fit=crop&q=80&w=800"
+                        alt="Kids Sweater">
+                    <div class="quick-view">Explore Sweaters</div>
+                </div>
+                <div class="product-info">
+                    <h3>Knitted Wool Sweater</h3>
+                    <span class="price">From ₹2,160</span>
+                    <button class="minimal-add-button">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="reveal">
+            <a href="#" class="logo" style="display: block; margin-bottom: 20px;">SASHILOK</a>
+            <p>Minimalist Luxury Boutique for the modern individual.</p>
+            <div class="social-links" style="margin-top: 30px;">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+
+        <div class="reveal">
+            <h4>Boutique</h4>
+            <ul>
+                <li><a href="kids.html">Kids Collection</a></li>
+                <li><a href="index3.html">New Arrivals</a></li>
+            </ul>
+        </div>
+
+        <div class="reveal">
+            <h4>Concierge</h4>
+            <ul>
+                <li><a href="#">Shipping Policy</a></li>
+                <li><a href="#">Returns & Exchanges</a></li>
+                <li><a href="#">Size Guide</a></li>
+            </ul>
+        </div>
+
+        <div class="reveal">
+            <h4>Contact</h4>
+            <ul>
+                <li><a href="mailto:concierge@sashilok.com">Email: concierge@sashilok.com</a></li>
+                <li><a href="tel:+1234567890">Phone: +1 234 567 890</a></li>
+                <li><a href="#">Visit Our Studio</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="script3.js"></script>
+</body>
+
+</html>

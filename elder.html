@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elder Collection | SASHILOK</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style3.css">
+    <style>
+        .collection-hero {
+            height: 60vh;
+            background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('young-indian-woman-wearing-sari.jpg');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: var(--white);
+            text-align: center;
+        }
+
+        .back-btn {
+            position: absolute;
+            top: 40px;
+            left: 60px;
+            color: var(--white);
+            text-decoration: none;
+            font-size: 14px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            z-index: 1001;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            transition: var(--transition-smooth);
+        }
+
+        .back-btn:hover {
+            color: var(--gold);
+        }
+
+        .scrolled .back-btn {
+            color: var(--black);
+        }
+    </style>
+</head>
+
+<body>
+
+    <a href="index3.html" class="back-btn">
+        <i class="fa-solid fa-arrow-left"></i> Back to Boutique
+    </a>
+
+    <header class="navbar">
+        <a href="index3.html" class="logo">SASHILOK</a>
+        <nav>
+            <a href="men.html">Men</a>
+            <a href="women.html">Women</a>
+            <a href="kids.html">Kids</a>
+            <a href="accessories.html">Accessories</a>
+        </nav>
+        <div class="nav-right">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-regular fa-heart"></i>
+            <div class="cart-icon">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <span class="badge">0</span>
+            </div>
+        </div>
+    </header>
+
+    <section class="collection-hero">
+        <div class="reveal">
+            <p>Graceful Living</p>
+            <h1>ELDER COLLECTION</h1>
+        </div>
+    </section>
+
+    <main>
+        <div class="section-title reveal">
+            <p>Curated Selection</p>
+            <h2>Timeless Comfort</h2>
+        </div>
+
+        <section class="products-grid">
+            <div class="product-card reveal">
+                <div class="product-image-container">
+                    <img src="https://images.unsplash.com/photo-1590608897129-79da98d15969?auto=format&fit=crop&q=80&w=800"
+                        alt="Elder Wear">
+                    <div class="quick-view">Explore Comfort</div>
+                </div>
+                <div class="product-info">
+                    <h3>Premium Silk Comfort Set</h3>
+                    <span class="price">From ₹5,310</span>
+                    <button class="minimal-add-button">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Shawls -->
+            <div class="product-card reveal">
+                <div class="product-image-container">
+                    <img src="https://images.unsplash.com/photo-1623091426635-05294bc71930?auto=format&fit=crop&q=80&w=800"
+                        alt="Shawl">
+                    <div class="quick-view">Explore Shawls</div>
+                </div>
+                <div class="product-info">
+                    <h3>Pure Pashmina Shawl</h3>
+                    <span class="price">From ₹2,990</span>
+                    <button class="minimal-add-button">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Loafers -->
+            <div class="product-card reveal">
+                <div class="product-image-container">
+                    <img src="https://images.unsplash.com/photo-1533867617858-e7b97e060509?auto=format&fit=crop&q=80&w=800"
+                        alt="Loafers">
+                    <div class="quick-view">Explore Loafers</div>
+                </div>
+                <div class="product-info">
+                    <h3>Luxury Support Loafers</h3>
+                    <span class="price">From ₹3,490</span>
+                    <button class="minimal-add-button">Add to Cart</button>
+                </div>
+            </div>
+            <!-- Sweaters -->
+            <div class="product-card reveal">
+                <div class="product-image-container">
+                    <img src="https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?auto=format&fit=crop&q=80&w=800"
+                        alt="Sweater">
+                    <div class="quick-view">Explore Sweaters</div>
+                </div>
+                <div class="product-info">
+                    <h3>Soft Cashmere Cardigan</h3>
+                    <span class="price">From ₹4,150</span>
+                    <button class="minimal-add-button">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Ethnic Sari -->
+            <div class="product-card reveal">
+                <div class="product-image-container">
+                    <img src="young-indian-woman-wearing-sari.jpg" alt="Sari">
+                    <div class="quick-view">Explore Saris</div>
+                </div>
+                <div class="product-info">
+                    <h3>Hand-woven Pattu Saree</h3>
+                    <span class="price">From ₹14,110</span>
+                    <button class="minimal-add-button">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Pyjamas -->
+            <div class="product-card reveal">
+                <div class="product-image-container">
+                    <img src="https://images.unsplash.com/photo-1582239328811-37f2269a9244?auto=format&fit=crop&q=80&w=800"
+                        alt="Pyjamas">
+                    <div class="quick-view">Explore Loungewear</div>
+                </div>
+                <div class="product-info">
+                    <h3>Breathable Cotton Pyjamas</h3>
+                    <span class="price">From ₹1,990</span>
+                    <button class="minimal-add-button">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="reveal">
+            <a href="#" class="logo" style="display: block; margin-bottom: 20px;">SASHILOK</a>
+            <p>Minimalist Luxury Boutique for the modern individual.</p>
+            <div class="social-links" style="margin-top: 30px;">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+
+        <div class="reveal">
+            <h4>Boutique</h4>
+            <ul>
+                <li><a href="elder.html">Elder Collection</a></li>
+                <li><a href="index3.html">New Arrivals</a></li>
+            </ul>
+        </div>
+
+        <div class="reveal">
+            <h4>Concierge</h4>
+            <ul>
+                <li><a href="#">Shipping Policy</a></li>
+                <li><a href="#">Returns & Exchanges</a></li>
+                <li><a href="#">Size Guide</a></li>
+            </ul>
+        </div>
+
+        <div class="reveal">
+            <h4>Contact</h4>
+            <ul>
+                <li><a href="mailto:concierge@sashilok.com">Email: concierge@sashilok.com</a></li>
+                <li><a href="tel:+1234567890">Phone: +1 234 567 890</a></li>
+                <li><a href="#">Visit Our Studio</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="script3.js"></script>
+</body>
+
+</html>

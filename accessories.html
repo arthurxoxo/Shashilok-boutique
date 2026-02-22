@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessories Collection | SASHILOK</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style3.css">
+    <style>
+        .collection-hero {
+            height: 60vh;
+            background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://images.unsplash.com/photo-1547949003-9792a18a2601?auto=format&fit=crop&q=80&w=1200');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: var(--white);
+            text-align: center;
+        }
+
+        .back-btn {
+            position: absolute;
+            top: 40px;
+            left: 60px;
+            color: var(--white);
+            text-decoration: none;
+            font-size: 14px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            z-index: 1001;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            transition: var(--transition-smooth);
+        }
+
+        .back-btn:hover {
+            color: var(--gold);
+        }
+
+        .scrolled .back-btn {
+            color: var(--black);
+        }
+    </style>
+</head>
+
+<body>
+
+    <a href="index3.html" class="back-btn">
+        <i class="fa-solid fa-arrow-left"></i> Back to Boutique
+    </a>
+
+    <header class="navbar">
+        <a href="index3.html" class="logo">SASHILOK</a>
+        <nav>
+            <a href="men.html">Men</a>
+            <a href="women.html">Women</a>
+            <a href="kids.html">Kids</a>
+            <a href="accessories.html">Accessories</a>
+        </nav>
+        <div class="nav-right">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-regular fa-heart"></i>
+            <div class="cart-icon">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <span class="badge">0</span>
+            </div>
+        </div>
+    </header>
+
+    <section class="collection-hero">
+        <div class="reveal">
+            <p>Finest Detail</p>
+            <h1>ACCESSORIES</h1>
+        </div>
+    </section>
+
+    <main>
+        <div class="section-title reveal">
+            <p>Curated Selection</p>
+            <h2>Exquisite Details</h2>
+        </div>
+
+        <section class="products-grid">
+            <!-- Bags -->
+            <div class="product-card reveal">
+                <div class="product-image-container">
+                    <img src="vertical-closeup-shot-grey-brown-rucksack-ground-street.jpg" alt="Bags">
+                    <div class="quick-view">Explore Bags</div>
+                </div>
+                <div class="product-info">
+                    <h3>Premium Leather Rucksacks</h3>
+                    <span class="price">From ₹4,810</span>
+                    <button class="minimal-add-button">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Watches -->
+            <div class="product-card reveal">
+                <div class="product-image-container">
+                    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&q=80&w=800"
+                        alt="Watches">
+                    <div class="quick-view">Explore Watches</div>
+                </div>
+                <div class="product-info">
+                    <h3>Minimalist Timepieces</h3>
+                    <span class="price">From ₹3,150</span>
+                    <button class="minimal-add-button">Add to Cart</button>
+                </div>
+            </div>
+            <!-- Sunglasses -->
+            <div class="product-card reveal">
+                <div class="product-image-container">
+                    <img src="sun-glasses-table.jpg" alt="Sunglasses">
+                    <div class="quick-view">Explore Eyewear</div>
+                </div>
+                <div class="product-info">
+                    <h3>Classic Aviator Sunglasses</h3>
+                    <span class="price">From ₹2,490</span>
+                    <button class="minimal-add-button">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Belts -->
+            <div class="product-card reveal">
+                <div class="product-image-container">
+                    <img src="https://images.unsplash.com/photo-1624222247344-5edc3d97f1f5?auto=format&fit=crop&q=80&w=800"
+                        alt="Belts">
+                    <div class="quick-view">Explore Belts</div>
+                </div>
+                <div class="product-info">
+                    <h3>Premium Leather Belt</h3>
+                    <span class="price">From ₹1,990</span>
+                    <button class="minimal-add-button">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Wallets -->
+            <div class="product-card reveal">
+                <div class="product-image-container">
+                    <img src="https://images.unsplash.com/photo-1627883244243-ea7c223c3baf?auto=format&fit=crop&q=80&w=800"
+                        alt="Wallets">
+                    <div class="quick-view">Explore Wallets</div>
+                </div>
+                <div class="product-info">
+                    <h3>RFID Blocking Leather Wallet</h3>
+                    <span class="price">From ₹1,580</span>
+                    <button class="minimal-add-button">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="reveal">
+            <a href="#" class="logo" style="display: block; margin-bottom: 20px;">SASHILOK</a>
+            <p>Minimalist Luxury Boutique for the modern individual.</p>
+            <div class="social-links" style="margin-top: 30px;">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+
+        <div class="reveal">
+            <h4>Boutique</h4>
+            <ul>
+                <li><a href="accessories.html">Accessories Collection</a></li>
+                <li><a href="index3.html">New Arrivals</a></li>
+            </ul>
+        </div>
+
+        <div class="reveal">
+            <h4>Concierge</h4>
+            <ul>
+                <li><a href="#">Shipping Policy</a></li>
+                <li><a href="#">Returns & Exchanges</a></li>
+                <li><a href="#">Size Guide</a></li>
+            </ul>
+        </div>
+
+        <div class="reveal">
+            <h4>Contact</h4>
+            <ul>
+                <li><a href="mailto:concierge@sashilok.com">Email: concierge@sashilok.com</a></li>
+                <li><a href="tel:+1234567890">Phone: +1 234 567 890</a></li>
+                <li><a href="#">Visit Our Studio</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="script3.js"></script>
+</body>
+
+</html>

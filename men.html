@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men's Collection | SASHILOK</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style3.css">
+    <style>
+        .collection-hero {
+            height: 60vh;
+            background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('luxury_men.png');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: var(--white);
+            text-align: center;
+        }
+
+        .back-btn {
+            position: absolute;
+            top: 40px;
+            left: 60px;
+            color: var(--white);
+            text-decoration: none;
+            font-size: 14px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            z-index: 1001;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            transition: var(--transition-smooth);
+        }
+
+        .back-btn:hover {
+            color: var(--gold);
+        }
+
+        .scrolled .back-btn {
+            color: var(--black);
+        }
+    </style>
+</head>
+
+<body>
+
+    <a href="index3.html" class="back-btn">
+        <i class="fa-solid fa-arrow-left"></i> Back to Boutique
+    </a>
+
+    <!-- NAVBAR (Reused) -->
+    <header class="navbar">
+        <a href="index3.html" class="logo">SASHILOK</a>
+        <nav>
+            <a href="men.html">Men</a>
+            <a href="women.html">Women</a>
+            <a href="kids.html">Kids</a>
+            <a href="accessories.html">Accessories</a>
+        </nav>
+        <div class="nav-right">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-regular fa-heart"></i>
+            <div class="cart-icon">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <span class="badge">0</span>
+            </div>
+        </div>
+    </header>
+
+    <section class="collection-hero">
+        <div class="reveal">
+            <p>The Gentlemen's Choice</p>
+            <h1>MEN'S COLLECTION</h1>
+        </div>
+    </section>
+
+    <main>
+        <div class="section-title reveal">
+            <p>Curated Selection</p>
+            <h2>Bespoke Essentials</h2>
+        </div>
+
+        <section class="products-grid">
+            <!-- Shirts -->
+            <div class="product-card reveal">
+                <div class="product-image-container">
+                    <img src="https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&q=80&w=800"
+                        alt="Premium Shirts">
+                    <div class="quick-view">Explore Shirts</div>
+                </div>
+                <div class="product-info">
+                    <h3>Signature Dress Shirts</h3>
+                    <span class="price">From ₹1,990</span>
+                    <button class="minimal-add-button">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Pants -->
+            <div class="product-card reveal">
+                <div class="product-image-container">
+                    <img src="https://images.unsplash.com/photo-1624371414361-e6e8ea04c112?auto=format&fit=crop&q=80&w=800"
+                        alt="Tailored Pants">
+                    <div class="quick-view">Explore Pants</div>
+                </div>
+                <div class="product-info">
+                    <h3>Tailored Trousers</h3>
+                    <span class="price">From ₹2,990</span>
+                    <button class="minimal-add-button">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Kurta -->
+            <div class="product-card reveal">
+                <div class="product-image-container">
+                    <img src="https://images.unsplash.com/photo-1594938291221-94f18cbb5660?auto=format&fit=crop&q=80&w=800"
+                        alt="Designer Kurta">
+                    <div class="quick-view">Explore Kurta</div>
+                </div>
+                <div class="product-info">
+                    <h3>Designer Silk Kurta</h3>
+                    <span class="price">From ₹4,150</span>
+                    <button class="minimal-add-button">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Formals -->
+            <div class="product-card reveal">
+                <div class="product-image-container">
+                    <img src="https://images.unsplash.com/photo-1593030761757-71fae45fa0e7?auto=format&fit=crop&q=80&w=800"
+                        alt="Formal Wear">
+                    <div class="quick-view">Explore Formals</div>
+                </div>
+                <div class="product-info">
+                    <h3>Formal Occasion Wear</h3>
+                    <span class="price">From ₹5,810</span>
+                    <button class="minimal-add-button">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Three-Piece Suit -->
+            <div class="product-card reveal">
+                <div class="product-image-container">
+                    <img src="https://images.unsplash.com/photo-1594932224010-3882f939462f?auto=format&fit=crop&q=80&w=800"
+                        alt="Three-Piece Suit">
+                    <div class="quick-view">Explore Suits</div>
+                </div>
+                <div class="product-info">
+                    <h3>Bespoke Three-Piece Suit</h3>
+                    <span class="price">From ₹14,770</span>
+                    <button class="minimal-add-button">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Shoes -->
+            <div class="product-card reveal">
+                <div class="product-image-container">
+                    <img src="https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?auto=format&fit=crop&q=80&w=800"
+                        alt="Luxury Shoes">
+                    <div class="quick-view">Explore Footwear</div>
+                </div>
+                <div class="product-info">
+                    <h3>Hand-Burnished Oxford Shoes</h3>
+                    <span class="price">From ₹4,810</span>
+                    <button class="minimal-add-button">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Accessories -->
+            <div class="product-card reveal">
+                <div class="product-image-container">
+                    <img src="https://images.unsplash.com/photo-1589756823851-6d819bc56751?auto=format&fit=crop&q=80&w=800"
+                        alt="Silk Ties">
+                    <div class="quick-view">Explore Accessories</div>
+                </div>
+                <div class="product-info">
+                    <h3>Silk Jacquard Ties</h3>
+                    <span class="price">From ₹1,410</span>
+                    <button class="minimal-add-button">Add to Cart</button>
+                </div>
+            </div>
+            <!-- Watches -->
+            <div class="product-card reveal">
+                <div class="product-image-container">
+                    <img src="https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&q=80&w=800"
+                        alt="Luxury Watch">
+                    <div class="quick-view">Explore Watches</div>
+                </div>
+                <div class="product-info">
+                    <h3>Vintage Chronograph Watch</h3>
+                    <span class="price">From ₹19,920</span>
+                    <button class="minimal-add-button">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Shirts -->
+            <div class="product-card reveal">
+                <div class="product-image-container">
+                    <img src="https://images.unsplash.com/photo-1596755094514-f87e32f85e2c?auto=format&fit=crop&q=80&w=800"
+                        alt="Linen Shirt">
+                    <div class="quick-view">Explore Shirts</div>
+                </div>
+                <div class="product-info">
+                    <h3>Classic White Linen Shirt</h3>
+                    <span class="price">From ₹1,990</span>
+                    <button class="minimal-add-button">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Jackets -->
+            <div class="product-card reveal">
+                <div class="product-image-container">
+                    <img src="https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&q=80&w=800"
+                        alt="Leather Jacket">
+                    <div class="quick-view">Explore Jackets</div>
+                </div>
+                <div class="product-info">
+                    <h3>Premium Leather Biker Jacket</h3>
+                    <span class="price">From ₹9,130</span>
+                    <button class="minimal-add-button">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="reveal">
+            <a href="#" class="logo" style="display: block; margin-bottom: 20px;">SASHILOK</a>
+            <p>Minimalist Luxury Boutique for the modern individual.</p>
+            <div class="social-links" style="margin-top: 30px;">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="reveal">
+            <h4>Boutique</h4>
+            <ul>
+                <li><a href="men.html">Men's Collection</a></li>
+                <li><a href="index3.html">New Arrivals</a></li>
+            </ul>
+        </div>
+        <div class="reveal">
+            <h4>Concierge</h4>
+            <ul>
+                <li><a href="#">Shipping Policy</a></li>
+                <li><a href="#">Size Guide</a></li>
+            </ul>
+        </div>
+        <div class="reveal">
+            <h4>Contact</h4>
+            <ul>
+                <li><a href="mailto:concierge@sashilok.com">Email: concierge@sashilok.com</a></li>
+                <li><a href="tel:+1234567890">Phone: +1 234 567 890</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="script3.js"></script>
+</body>
+
+</html>
