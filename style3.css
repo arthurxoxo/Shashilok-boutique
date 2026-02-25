@@ -769,35 +769,6 @@ footer .social-links a:hover {
         width: 100%;
         right: -100%;
     }
-
-    /* Make large editorial cards and product images more compact on tablets */
-    .card {
-        height: 420px;
-    }
-
-    .product-image-container {
-        height: 320px;
-    }
-
-    /* disable fixed background on smaller screens for performance and layout */
-    .hero {
-        background-attachment: scroll;
-        padding: 60px 20px;
-    }
-
-    .hero button {
-        padding: 14px 28px;
-    }
-
-    .logo {
-        font-size: 28px;
-        letter-spacing: 5px;
-    }
-
-    .nav-right {
-        gap: 18px;
-        font-size: 18px;
-    }
 }
 
 @media (max-width: 600px) {
@@ -813,48 +784,6 @@ footer .social-links a:hover {
 
     footer {
         grid-template-columns: 1fr;
-    }
-
-    /* Mobile-specific compacting */
-    .card {
-        height: 320px;
-    }
-
-    .product-image-container {
-        height: 260px;
-    }
-
-    .hero {
-        padding: 30px 12px;
-    }
-
-    .hero button {
-        padding: 12px 22px;
-        font-size: 11px;
-    }
-
-    .top-bar {
-        font-size: 10px;
-        letter-spacing: 2px;
-        padding: 8px 6px;
-    }
-
-    .logo {
-        font-size: 22px;
-        letter-spacing: 4px;
-    }
-
-    .nav-right i,
-    .nav-right {
-        font-size: 18px;
-        gap: 12px;
-    }
-
-    .badge {
-        top: -8px;
-        right: -8px;
-        padding: 3px 6px;
-        font-size: 8px;
     }
 }
 
